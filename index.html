@@ -8,8 +8,12 @@
 </head>
 <body>
   <div class="container">
-    <h1>Toma tu regalo BuBu</h1>
-    <div class="gift-box" onclick="openGift()">
+    <h1 id="message">Cuenta regresiva hasta tu regalo</h1>
+    <div id="thermometer">
+      <div id="thermometer-fill"></div>
+    </div>
+    <p id="countdown-timer">Tiempo restante: --:--:--</p>
+    <div class="gift-box" id="gift" style="display: none;" onclick="openGift()">
       🎁
     </div>
   </div>
